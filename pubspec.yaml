@@ -1,0 +1,60 @@
+name: envilens
+description: A Flutter app to help users make environmentally-friendly choices.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  url_launcher: ^6.1.7
+  google_generative_ai: ^0.4.3
+  flutter_barcode_scanner: ^2.0.0
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  firebase_core: ^2.24.2
+  google_mlkit_barcode_scanning: ^0.12.0
+  google_mlkit_text_recognition: ^0.13.0
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+    - family: Cabin
+      fonts:
+        - asset: assets/fonts/Cabin-Regular.ttf
+          weight: 400
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+    - family: Mako
+      fonts:
+        - asset: assets/fonts/Mako-Regular.ttf
+          weight: 400
+
+# Lints for analyzing code quality
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - always_specify_types
+    - prefer_final_locals
+    - avoid_unnecessary_containers
+    - use_key_in_widget_constructors
