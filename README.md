@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 EnviLens Application
 This project includes both a Flutter app and a Node.js server with a MySQL database. Follow the instructions below to set up and run the application.
 
@@ -14,7 +13,6 @@ Server Configuration
 Create and Configure Database:
 
 Open your MySQL client and execute the following commands to create the database and tables:
-
 
 CREATE DATABASE envilensdb;
 USE envilensdb;
@@ -95,6 +93,3 @@ Run the app:
 
 
 flutter run
-=======
-# EnviLens
->>>>>>> ced778c6614c80984e37627013b3a020f9163a8c
