@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 EnviLens Application
 This project includes both a Flutter app and a Node.js server with a MySQL database. Follow the instructions below to set up and run the application.
 
@@ -94,3 +95,6 @@ Run the app:
 
 
 flutter run
+=======
+# EnviLens
+>>>>>>> ced778c6614c80984e37627013b3a020f9163a8c
